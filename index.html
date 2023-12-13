@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="/js/client.js"></script>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>CHAT APP | ARYAN KOHLI</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row text-center main-head">
+            <h1>Welcome to group chat</h1>
+            <h2>Online users : <span id="userCount">0</span> </h2>
+        </div>
+        <div class="messages">
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <form action="#" id="send-container">
+
+                    <input type="text" class="input" id="input" placeholder="Enter message here..">
+                    <button class="btn btn-primary" type="submit">SEND</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
