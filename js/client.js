@@ -1,4 +1,5 @@
-const socket = io("http://localhost:8000", { transports: ["websocket"] });
+// const socket = io("http://localhost:8000", { transports: ["websocket"] });
+const socket = io("https://aryan-kohli-chat-app-backend.onrender.com", { transports: ["websocket"] });
 
 const form = document.getElementById('send-container');
 const inputmsg = document.getElementById('input');
